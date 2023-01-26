@@ -1,0 +1,10 @@
+version: '3'
+services:
+  terraform:
+    image: hashicorp/terraform:latest
+    working_dir: /demo
+    volumes:
+      - .:/demo
+      - terraform-state:/demo/terraform.tfstate2
+volumes:
+  terraform-state:
