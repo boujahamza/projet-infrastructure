@@ -3,3 +3,10 @@
 /terraform/.terraform.lock.hcl
 /terraform/terraform.tfstate
 /terraform/terraform.tfstate.backup
+
+/kube-opex-analytics/.cache/
+/kube-opex-analytics/.idea/
+/kube-opex-analytics/.tox/
+/kube-opex-analytics/venv/
+/kube-opex-analytics/__pycache__/
+/kube-opex-analytics/*.s[q-z]p
