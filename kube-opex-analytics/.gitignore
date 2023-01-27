@@ -1,0 +1,6 @@
+.cache/
+.idea/
+.tox/
+venv/
+__pycache__/
+*.s[q-z]p

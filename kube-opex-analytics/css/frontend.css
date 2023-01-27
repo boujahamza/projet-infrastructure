@@ -1,0 +1,34 @@
+.container{
+    width: 98%;
+}
+.navbar-header{
+    min-height: 55px;
+}
+.navbar-brand {
+    padding: 5px;
+}
+.chart-container {
+    min-height: 400px;
+    margin-top: 16px;
+}
+
+.btn.menu-export {
+    border: 0;
+}
+
+.tricolon:after {
+    content: '⁝';
+}
+
+.chart-download:before {
+    content: '\2193 ';
+}
+
+.chart-download:after {
+    content: ' \2193';
+}
+
+legend {
+    margin-top: .5rem;
+    color: rgba(0, 0, 0, 0.65);
+}
